@@ -1,6 +1,7 @@
 # Raspi to Light
 
 ## 1. Projekttreffen
+
 ## 2. Projekttreffen — 4. April 2019
 
 * Cross-Compilation möglich (Multichain), muss also nicht auf dem Pi gemacht werden (Erstes GOogle-Ergebnis: "raspberry pi eclipse c++)
@@ -11,20 +12,20 @@
 * Kommunikation via WhatsApp
 
 * Aufgabenverteilung
-** Oberfläche (mit Qt / MIIP)
-*** Player-Verwaltung (Jens Dolfus)
-*** Fixture-Verwaltung (Sebastian Rindfleisch)
-*** Edit-Ansicht (Beide)
-** SigV
-*** Einlesen Audisignal
-*** Abtastung Audiosignal
-*** Algorithmus STFT (Steven Drewers)
-*** Mapping Audio/Licht (Johannes Hirth)
-** I/O
-*** DMX Hardware Ausgabe / GPIO (Johannes Hirth)
-*** Datei-Handling / Speichern & Laden von Shows (Fabian Krüger)
-** Bonus
-*** GPIOs nutzen, Extension Board bauen, UART-DMX (Steven Einkaufsliste)
-** Entwicklungsumgebung aufsetzen (erste Aufgabe / MIMP)
-*** Aufsetzen
-*** Tutorial
+  * Oberfläche (mit Qt / MIIP)
+    * Player-Verwaltung (Jens Dolfus)
+    * Fixture-Verwaltung (Sebastian Rindfleisch)
+    * Edit-Ansicht (Beide)
+  * SigV
+    * Einlesen Audisignal
+    * Abtastung Audiosignal
+    * Algorithmus STFT (Steven Drewers)
+    * Mapping Audio/Licht (Johannes Hirth)
+  * I/O
+    * DMX Hardware Ausgabe / GPIO (Johannes Hirth)
+    * Datei-Handling / Speichern & Laden von Shows (Fabian Krüger)
+  * Bonus
+    * GPIOs nutzen, Extension Board bauen, UART-DMX (Steven Einkaufsliste)
+  * Entwicklungsumgebung aufsetzen (erste Aufgabe / MIMP)
+    * Aufsetzen
+    * Tutorial
