@@ -33,10 +33,11 @@ Zusammenfassung aller durchgeführter Maßnahmen: IST
 Welche Hard- und Software wurde tatsächlich genutzt?  
 Welche Programmiersprachen, Bibliotheken, Frameworks und IDEs kamen zum Einsatz?
 Welche Patterns wurden genutzt?
-### 3.3. [Literatur / Quellen](3.3. Literatur / Quellen)
+### 3.3 [Einrichten des Projekts auf dem eigenen PC](3.3. Einrichten des Projekts auf dem eigenen PC)
+### 3.4. [Literatur / Quellen](3.4. Literatur / Quellen)
 Bücher, Webseiten, Magazine, Artikel, ...  
 Geben Sie jede Quelle an, die Sie für Ihre Einarbeitung und die Entwicklung genutzt haben.
-### 3.4. [Verwendete Ressourcen](3.4. Verwendete Ressourcen)
+### 3.5. [Verwendete Ressourcen](3.5. Verwendete Ressourcen)
 Geben Sie Bibliotheken, Dokumente/Dateien, Server/Dienste an, die Sie genutzt haben.
 
 ---- 
