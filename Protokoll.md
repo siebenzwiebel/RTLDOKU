@@ -29,3 +29,59 @@
   * Entwicklungsumgebung aufsetzen (erste Aufgabe / MIMP)
     * Aufsetzen
     * Tutorial
+
+## 3. Projekttreffen — 11. April 2019
+
+* Allgemeines:
+    * Anfragen zur Aufnahme von Dateien/Links/etc die ins Moodle aufgenommen werden sollen [hier stellen.](https://moodle.medien.hs-duesseldorf.de/mod/forum/view.php?id=4588)
+    * Git Issues verwenden
+
+* Hardware
+    * Hardware für Ausgabe über GPIO anschaffen
+        * 5V Ports für Ausgabe benutzen<br>
+<img src="uploads/9544f4f9f54c21cca6ab7bd6e009e7cd/image.png" width="50%"><br>
+        * Herrn Emmerich nach vorhandenen Bauteilen fragen, ansonsten bestellen
+        * Board bauen lassen oder DMX Interface FT24RL bestellen ([BitWizard_B.V.](http://bitwizard.nl/shop/DMX-interface-for-Raspberry-pi-with-usb-(FT245RL)))
+        * Eventuell vorher zunächst provisorisch selber bauen
+        * Schaltplan und Teileliste an Herrn Antes
+
+* Software
+    * bei Git Commits betroffenen Issue verlinken
+    * C++ 11 verwenden
+    * Bei Verwendung von Librarys auf Kompatibilität achten
+    * Einheitlichen Coding Style benutzen: [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
+        * Stylechecker zu prüfen verwenden
+    * Komentare/DocGenrator benutzen
+        * für jede Methode zum Mindest eine kurze Erklärung
+        * Algorithmen ausführlich Kommentieren
+    * Variablen und Kommentare/Doc einheitlich auf Englisch
+    * Funktionssammlung im Wiki bereitstellen
+    * Ubuntu Mate auf den Raspberry Pi's installieren
+
+    * GUI Elemente in relativer Größe
+    * QT Anwendung kompilieren
+        * Mindestanforderung:
+            * für Raspberry Pi 3b+ (64Bit)
+        * Außerdem:
+            * jeweils 32 und 64 Bit Versionen für den Raspberry Pi
+            * jeweils 32 und 64 Bit Versionen für Windows
+            * 64 Bit Version für Mac
+
+    * Audio Dateiformate zu WAV umwandeln, speichern und der Signalverarbeitung zur Verfügung stellen
+        * Abspeichern der zum Track zugehörigen Lightshows
+        * Abspeichern der aktiven Fixtures
+        * Abspeichern der Playlist (.m3u)
+
+* Signalverarbeitung
+    * Signal im Original-Zustand belassen (Stereo)
+
+* Algorithmus
+    * [Essentia Library](https://essentia.upf.edu/documentation/) verwenden
+    * Mehr als reine Equalizer Visualisierung, zum Beispiel:
+        * Harmonie-Änderungen
+        * Licht-Akzente
+        * Beat
+        * Templates für den Nutzer
+            * Stimmung
+            * Genre
+            * "Danceability"
