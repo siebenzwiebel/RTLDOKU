@@ -85,3 +85,25 @@
             * Stimmung
             * Genre
             * "Danceability"
+## 4. Projekttreffen — 18. April 2019
+
+* Erster Entwurf der GUI wurde vorgezeigt
+* Waveformplot als Option für eine Darstellung des Songs
+* Bootstrap als Designvorlage vorgeschalgen
+* Gitignore und Cmake optimiert für den GUI Branch
+* Als Docx Generator soll Doxigen genommen werden.
+* Quickdocumentation bevorzugt für Kommentare
+* Erstes Programm wurde versucht auf dem PI zu kompilieren, dieser stürzt dabei allerdings ab.
+* Dynamisches linken von QT Librarys ist Problematisch.
+
+* Algorithmusbesprechung:
+    * Essentia kann nicht genutzt werden, da es zu Umfangreich ist.
+    * QTMedia könnte benötigte librarys haben, welche auf den Waveformplot machen könnten.
+
+* Logik:
+    * SFTW3 soll als standardlibrary genutzt werden.
+    * float ist der Standard beim Auslesen und Speichern der Werte.
+    
+    * Aus Datei benötigte Infos:
+        * Aus dem Zeitbereich, Peaks betrachten.
+        * Frequenzinformationen, Spektogramm (dafür den sftw3)
