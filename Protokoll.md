@@ -107,3 +107,14 @@
     * Aus Datei benötigte Infos:
         * Aus dem Zeitbereich, Peaks betrachten.
         * Frequenzinformationen, Spektogramm (dafür den sftw3)
+* Probleme und deren Lösungen bei FFT:
+    * Ergebnisse der Transformation können verfälscht sein. Diese müssen ausgeglichen werden.
+    * Für die Lichtsteurung, will man wissen wann welche Frequenzen vorkommen. Signal in Blöcke unterteilen, darauf analyse starten.
+    * Hammingfenster wird für FFT benutzt.
+    * Größe der Überlappung von Fenstern muss für unsere Bedürfnisse angepasst werden. Stadardwert für den Anfang 50% Überlappung
+    * Grober Ablauf:
+        * Man geht über jeden Block, macht die Fensterung, macht die FFT. Fertig. Danach weiß man welche Frequenzen für welchen Block vorhanden sind.
+
+* Aufgabenverteilung:
+    * Medientechniker widtmen sich dem Algorythmus, BMI verbessert die GUI.
+    * Anforderungen an GUI können über Git geadded werden.
