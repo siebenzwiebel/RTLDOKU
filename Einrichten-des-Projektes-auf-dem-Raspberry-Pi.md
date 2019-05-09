@@ -22,7 +22,7 @@ sudo apt-get install git g++ cmake
 ```
 Da CMake mit apt-get nur bis Version 3.10 installiert werden kann und eine neuere nötig ist, muss diese händisch nachinstalliert werden.
 ```shell
-wget https://github.com/Kitware/CMake/releases/download/v3.14.3/cmake-3.14.3-Linux-x86_64.tar.gz
+wget https://cmake.org/files/v3.14/cmake-3.14.3.tar.gz
 tar xzf cmake-3.14.3-Linux-x86_64.tar.gz
 cd cmake-3.14.3-Linux-x86_64
 ./bootstrap
