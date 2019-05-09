@@ -29,3 +29,15 @@ cd cmake-3.14.3-Linux-x86_64
 make
 sudo make install
 ```
+
+# Projekt klonen
+Erst ggf. SSH-Key generieren. Dann:
+```shell
+git clone git@projectbase.medien.hs-duesseldorf.de:cantes/19ss-raspitolight1.git
+```
+
+# Externe Libraries builden
+In Projekt-Root-Verzeichnis (mit Python 2.7):
+```shell
+python build_external_libraries.py
+```
