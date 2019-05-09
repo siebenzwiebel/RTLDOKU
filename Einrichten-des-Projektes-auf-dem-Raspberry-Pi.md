@@ -41,3 +41,13 @@ In Projekt-Root-Verzeichnis (mit Python 2.7):
 ```shell
 python build_external_libraries.py
 ```
+
+# Swap file
+Das Builden mit ```./build_x86.sh``` sollte mit einem kryptischen Fehler schiefgehen. Das Problem löst ein Swap file:
+```shell
+sudo dd if=/dev/zero of=/swapfile1GB bs=1M count=1024
+sudo mkswap /swapfile1GB
+sudo swapon /swapfile1GB
+```
+
+```sudo swapon /swapfile1GB``` muss nach jedem Booten ausgeführt werden (wenn der RAM zum Builden gebraucht wird).
