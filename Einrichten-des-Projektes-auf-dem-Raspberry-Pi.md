@@ -15,6 +15,7 @@ Die Abhängigkeit von qtmultimedia5-dev verschwindet, sobald wir Qt nicht mehr z
 ```shell
 sudo apt-get install qt5-default qtmultimedia5-dev
 ```
+
 ## Zum Kompilieren des Projektes:
 Ggf müssen noch git, g++ & cmake installiert werden.
 ```shell
@@ -51,3 +52,11 @@ sudo swapon /swapfile1GB
 ```
 
 ```sudo swapon /swapfile1GB``` muss nach jedem Booten ausgeführt werden (wenn der RAM zum Builden gebraucht wird).
+
+# USB-Rechte
+Standardmäßig existieren nur die benötigten Rechte zum Öffnen des USB-Devices, wenn das Programm als root ausgeführt wird. Um es auch ohne ```sudo``` ausführen zu können, folgendes tun:
+```shell
+sudo nano /etc/udev/rules.d/98-usb-permissions.rules
+```
+In die Datei ```SUBSYSTEM=="usb", ATTRS{idVendor}=="10cf", ATTRS{idProduct}=="8062", MODE="0666"``` schreiben.
+Gegebenenfalls neu einloggen bzw. rebooten.
