@@ -118,3 +118,18 @@
 * Aufgabenverteilung:
     * Medientechniker widtmen sich dem Algorythmus, BMI verbessert die GUI.
     * Anforderungen an GUI können über Git geadded werden.
+
+
+## 5. Projekttreffen — 02. Mai 2019
+In der letzten Woche geschafft:
+* Automatisches Builden auf Jans Pi in Kombination mit GitLab funktioniert
+* Fixtures können in der Fixture-Ansicht hinzugefügt werden
+* fftw3 und libsndfile können mit Hilfe eines Skripts auf Linux, Mac und Windows für den Pi kompiliert werden
+* STFT läuft (time ranges mit frequency ranges, an jedem Zeitpunkt die Frequenz)
+
+Für die nächste Woche steht an:
+* Wenn .mp3 geliefert wird, Umwandlung in .wav
+* Zusammenführen von branches (library-Einbindung und aktueller GUI-Stand)
+* STFT endet momentan mit einem großen Array. Dazu sollen noch "getter"-Funktionen geschrieben werden, die bestimmte gewünschte Dinge aus diesem Datensatz auslesen
+* Header/DLL in Projekt einbinden, um Vellemann VM116 anzusteuern (Daten an spezifischen Channel schicken)
+* Zwischenziel: In der GUI existiert ein Button, um die STFT mit der eingelesenen Datei durchzuführen. Weiterer Button, um random Werte auf XLR-Channel zu schreiben.
