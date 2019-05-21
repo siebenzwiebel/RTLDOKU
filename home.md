@@ -34,10 +34,11 @@ Welche Hard- und Software wurde tatsächlich genutzt?
 Welche Programmiersprachen, Bibliotheken, Frameworks und IDEs kamen zum Einsatz?
 Welche Patterns wurden genutzt?
 ### 3.3 [Einrichten des Projekts auf dem eigenen PC](3.3. Einrichten des Projekts auf dem eigenen PC)
-### 3.4. [Literatur / Quellen](3.4. Literatur / Quellen)
+### 3.4. [Dokumentation Lightshow](3.4. Dokumentation Lightshow)
+### 3.8. [Literatur / Quellen](3.8. Literatur / Quellen)
 Bücher, Webseiten, Magazine, Artikel, ...  
 Geben Sie jede Quelle an, die Sie für Ihre Einarbeitung und die Entwicklung genutzt haben.
-### 3.5. [Verwendete Ressourcen](3.5. Verwendete Ressourcen)
+### 3.9. [Verwendete Ressourcen](3.9. Verwendete Ressourcen)
 Geben Sie Bibliotheken, Dokumente/Dateien, Server/Dienste an, die Sie genutzt haben.
 
 ---- 
