@@ -19,7 +19,7 @@ sudo apt-get install qt5-default qtmultimedia5-dev
 ## Zum Kompilieren des Projektes:
 Ggf müssen noch git, g++ & cmake installiert werden.
 ```shell
-sudo apt-get install git g++ cmake
+sudo apt-get install git g++ cmake dh_autoreconf libudev-dev
 ```
 Da CMake mit apt-get nur bis Version 3.10 installiert werden kann und eine neuere nötig ist, muss diese händisch nachinstalliert werden.
 ```shell
