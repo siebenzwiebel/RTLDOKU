@@ -60,3 +60,9 @@ sudo nano /etc/udev/rules.d/98-usb-permissions.rules
 ```
 In die Datei ```SUBSYSTEM=="usb", ATTRS{idVendor}=="10cf", ATTRS{idProduct}=="8062", MODE="0666"``` schreiben.
 Gegebenenfalls neu einloggen bzw. rebooten.
+
+# Zusätzliche Installationen für QMediaPlayer
+Sollte beim Klicken auf Play der 
+```defaultServiceProvider::requestService(): no service found for - "org.qt-project.qt.mediaplayer"```
+oder ein ähnlicher Fehler auftreten, müssen noch weitere Pakete zur Unterstützung des QMediaPlayers installiert werden. Die benötigten Pakete werden bei verschiedenen Paketen mit installiert, eine Möglichkeit ist
+```sudo apt-get install libqt5multimedia5-plugins```
