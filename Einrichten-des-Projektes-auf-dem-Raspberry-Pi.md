@@ -24,8 +24,8 @@ sudo apt-get install git g++ cmake dh-autoreconf libudev-dev
 Da CMake mit apt-get nur bis Version 3.10 installiert werden kann und eine neuere nötig ist, muss diese händisch nachinstalliert werden.
 ```shell
 wget https://cmake.org/files/v3.14/cmake-3.14.3.tar.gz
-tar xzf cmake-3.14.3-Linux-x86_64.tar.gz
-cd cmake-3.14.3-Linux-x86_64
+tar xzf cmake-3.14.3.tar.gz
+cd cmake-3.14.3
 ./bootstrap
 make
 sudo make install
