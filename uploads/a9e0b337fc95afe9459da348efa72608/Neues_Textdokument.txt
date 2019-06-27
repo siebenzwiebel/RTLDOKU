@@ -1,0 +1,87 @@
+
+
+GUI 
+
+-Kanalbegrenzung ja (512)
+-FIxturebegrenzung nein
+
+
+
+
+TO DO: 
+-Cameo, Antari etc. möglichst nicht als Parent deklarierbar(Drap&Drop verbessern)
+-kleines Warning-Pop-up beim Löschen von Fixtures 
+-fixen Pfad fürs Abspeichern der AppData , Entfernen von relativen Pfaden
+-Q-Vektoren ändern zu std-Vektoren? evtl. Verzicht auf Vektoren ?
+
+Initilisierung Player-Ansicht noch hardgecoded, XML abhängig machen 
+
+
+
+Port-Audio
+
+-QMedia-Player funktioniert nicht auf dem Pi
+----->Alternativen ? 
+Keine High-level Library läuft 
+
+Mit Kommandozeilenbeispiel laufen Lieder nur mit halber Geschwindigkeit,
+Ursache? Ubuntu Mate / Raspbian? Anscheinend Betriebssystemunterschiede 
+
+
+
+!!!!!Überlegung Raspberry 4 anschaffen? 
+ 
+Audiowiedergabe nur "rauschig", frühste richtige Audiowiedergabe in 2 Wochen
+
+
+
+
+
+
+!!!!!!!! HIER WIRD NOCH NiCHT AUFGEGEBEN !!!!!!!!!!!!!!
+
+
+
+
+
+Software soll auf dem Pi laufen.
+Vielleicht eher die Edit-Funktion weglassen.
+
+
+
+GUI 
+
+
+
+!!!!!!!Weglassen der zusätzlichen User-Edit-Funktion, um Arbeitsspeicher zu sparen.
+
+!!!!!!!Wir ziehen das Projekt raus, bis zu dem letzten Termin, um das Projekt auf dem Pi zum Laufen zu bringen  
+
+
+
+USB 
+
+
+
+Umstellung von 8 Byte USB zu 64Byte für eine bessere Übertragung auf mehrere Lampen
+evtl. Veränderung der Zeit? (25 ms pro Signal zu 50/100 ms pro Signal)//löst das eventuell das Porblem der Verzögerung 
+
+
+
+Beat-Detection:
+
+ 
+Funktioniert, dauert aber sehr lange(ist das so praktikabel?) 
+
+
+Playlist :
+
+
+Nicht alle Lieder einzeln hinzufügen, ODER den Liedern jeweils immer noch einzeln die Farben zuordnen
+Farbwechsel mit Lampen, aktuell rot, grün, blau hardgecoded. 
+
+
+Lied-Segmentation wäre sehr hilfreich.
+Nochmal die Beat-Detection angucken, evtl. angucken eines anderen Algorithmus auf GameDevs für Beat-Detection in Computerspielen.
+
+ 
