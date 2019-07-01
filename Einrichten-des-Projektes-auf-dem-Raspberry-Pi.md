@@ -7,6 +7,12 @@ Direkter Download-Link des Images: [https://ubuntu-mate.org/raspberry-pi/ubuntu-
 Flashen auf eine SD-Karte ist besonders einfach mit dem Tool [Etcher](https://www.balena.io/etcher/).
 
 # Benötigte Pakete
+
+Zunächst Paketlisten aktualisieren:
+```shell
+sudo apt-get update
+```
+
 ## Zum Ausführen des Projektes auf dem Pi:
 Es wird ein Build von Qt 5 benötigt.
 
