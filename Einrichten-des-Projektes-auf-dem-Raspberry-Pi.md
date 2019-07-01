@@ -32,7 +32,7 @@ Da CMake mit apt-get nur bis Version 3.10 installiert werden kann und eine neuer
 wget https://cmake.org/files/v3.14/cmake-3.14.3.tar.gz
 tar xzf cmake-3.14.3.tar.gz
 cd cmake-3.14.3
-./bootstrap # dauert ca. 25 Minuten
+./bootstrap # dauert ca. 25 Minuten unter Mate, ca. 20 Minuten unter Raspbian
 make # dauert ca. 50 Minuten
 sudo make install
 ```
@@ -64,7 +64,7 @@ Standardmäßig existieren nur die benötigten Rechte zum Öffnen des USB-Device
 ```shell
 sudo nano /etc/udev/rules.d/98-usb-permissions.rules
 ```
-In die Datei ```SUBSYSTEM=="usb", ATTRS{idVendor}=="10cf", ATTRS{idProduct}=="8062", MODE="0666"``` schreiben.
+Für Velleman K8062 in die Datei ```SUBSYSTEM=="usb", ATTRS{idVendor}=="10cf", ATTRS{idProduct}=="8062", MODE="0666"``` schreiben. Für Eurolite USB-DMX512 ```SUBSYSTEM=="usb", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", MODE="0666"```
 Gegebenenfalls neu einloggen bzw. rebooten.
 
 # Zusätzliche Installationen für QMediaPlayer
