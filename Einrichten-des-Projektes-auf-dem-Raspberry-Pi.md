@@ -19,7 +19,7 @@ Es wird ein Build von Qt 5 benötigt.
 Die Abhängigkeit von qtmultimedia5-dev verschwindet, sobald wir Qt nicht mehr zum Abspielen von Sound verwenden
 
 ```shell
-sudo apt-get install qt5-default qtmultimedia5-dev
+sudo apt-get install qt5-default qtmultimedia5-dev libasound2 libasound2-dev
 ```
 
 ## Zum Kompilieren des Projektes:
