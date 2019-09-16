@@ -48,7 +48,7 @@ Zusammenfassung aller durchgeführter Maßnahmen: IST
 ### [3.5.4 Abspielen](3.5 Lightshow#354-abspielen-einer-lightshow)
 ### [3.5.5 Übertragung DMX](3.5 Lightshow#355-kommunikation-zwischen-anwendung-und-dmx-device)
 ### [3.5.6 Implementierung von Portaudio](3.5 Lightshow#357-implementierung-von-portaudio)
-## [3.6 Graphical User Interface](3.6 Graphical User Interface (GUI))
+## [3.6 Graphical User Interface](3.6 Graphical User Interface)
 ### [3.6.1 Übersicht](3.6.1 Übersicht)
 ### [3.6.2 MainWindow](3.6.2 MainWindow)
 ### [3.6.3 Fixture Management](3.6.2 Fixture Management)
