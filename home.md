@@ -49,7 +49,7 @@ Zusammenfassung aller durchgeführter Maßnahmen: IST
 ### [3.5.5 Übertragung DMX](3.5 Lightshow#355-kommunikation-zwischen-anwendung-und-dmx-device)
 ### [3.5.6 Implementierung von Portaudio](3.5 Lightshow#357-implementierung-von-portaudio)
 ## [3.6 Graphical User Interface](3.6 Graphical User Interface)
-### [3.6.1 Übersicht](3.6 Graphical User Interface#361-uebersicht)
+### [3.6.1 Übersicht](3.6.1 Übersicht)
 ### [3.6.2 MainWindow](3.6 Graphical User Interface#362-mainwindow)
 ### [3.6.3 Fixture-Management](3.6 Graphical User Interface#363-fixture-management)
 ### [3.6.4 Player-View](3.6 Graphical User Interface#364-player-view)
