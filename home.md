@@ -3,9 +3,7 @@
 Hier notieren Sie das Projektmanagement betreffende Erweiterungen und Modifikationen (Änderung des Zeitplans, neues Protokoll, etc.)
 ## [1.2 Zuständigkeiten](1.2 Zuständigkeiten)
 Wer übernimmt welche Aufgaben und wer ist verantwortlich für das jeweilige Arbeitspaket?
-## [1.3 Zeitplanung](1.3 Zeitplanung)
-Sie hilft den Überblick über Aufgaben und Termine zu behalten und diese bei Problemen neu zu justieren.
-## [1.4 Protokolle](1.4 Protokolle)
+## [1.3 Protokolle](1.3 Protokolle)
 Für jedes Projekttreffen wird ein Protokoll geschrieben.
 # 2. Spezifikationen
 Zusammenfassung aller Vorgaben: SOLL
