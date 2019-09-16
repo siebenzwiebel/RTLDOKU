@@ -43,6 +43,7 @@ Zusammenfassung aller durchgeführter Maßnahmen: IST
 ### [3.5.4 Persistierung](3.5.4 Persistierung)
 ### [3.5.5 Abspielen](3.5.5 Abspielen)
 ### [3.5.6 Übertragung DMX](3.5.6 Übertragung DMX)
+### [3.5.7 Implementierung von Portaudio](3.5.7 Implementierung von Portaudio)
 ## [3.6 Graphical User Interface](3.6 Graphical User Interface)
 ### [3.6.1 Übersicht](3.6.1 Übersicht)
 ### [3.6.2 Main Window](3.6.2 Main Window)
