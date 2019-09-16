@@ -57,6 +57,6 @@ Zusammenfassung aller durchgeführter Maßnahmen: IST
 ### [3.6.6 Playlist](3.6 Graphical User Interface#366-playlist)
 ### [3.6.7 Hinzufügen eines Songs](3.6 Graphical User Interface#367-hinzufügen-song)
 ### [3.6.8 Löschen eines Songs](3.6. Graphical User Interface#368-löschen-song)
-### [3.6.9 Playlist Reihenfolge verändern](3.6. Graphical User Interface#369-playlist-reihenfolge-ändern)
+### [3.6.9 Playlist Reihenfolge verändern](3.6. Graphical User Interface#369-playlist-reihenfolge-verändern)
 ### [3.6.10 Song Auswahl durch Doppelt klicken](3.6. Graphical User Interface#3610-song-auswahl-doppelt-klicken)
 # [4. Quellen & Ressourcen](4. Quellen & Ressourcen)
