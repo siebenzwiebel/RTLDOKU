@@ -48,7 +48,7 @@ Zusammenfassung aller durchgeführter Maßnahmen: IST
 ### [3.5.6 Implementierung von Portaudio](3.5.7 Implementierung von Portaudio)
 ## [3.6 Graphical User Interface](3.6 Graphical User Interface)
 ### [3.6.1 Übersicht](3.6.1 Übersicht)
-### [3.6.2 Main Window](3.6.2 Main Window)
+### [3.6.2 MainWindow](3.6.2 MainWindow)
 ### [3.6.3 Fixture-Management](3.6.3 Fixture-Management)
 ### [3.6.4 Playlist-View](3.6.4 Playlist-View)
 ### [3.6.5 Player-View](3.6.5 Player-View)
