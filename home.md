@@ -20,6 +20,8 @@ In dem durch die Aufgabenstellung gesteckten Rahmen **definieren die Projektteil
 # 3. Umsetzung
 Zusammenfassung aller durchgeführter Maßnahmen: IST
 ## [3.1 Hardware](3.1 Hardware)
+### [3.1.1 Raspberry Pi](3.1 Hardware#311-raspberry-pi)
+### [3.1.2 DMX-Interfaces](3.1 Hardware#312-dmx-interfaces)
 ## [3.2 Entwicklungsumgebung](3.2 Entwicklungsumgebung)
 ### [3.2.1 C++](3.2 Entwicklungsumgebung#321-c++)
 ### [3.2.2 Build-System](3.2 Entwicklungsumgebung#322-build-system)
