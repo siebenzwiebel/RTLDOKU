@@ -39,7 +39,7 @@ Zusammenfassung aller durchgeführter Maßnahmen: IST
 ## [3.5 Lightshow](3.5 Lightshow)
 ### [3.5.1 Übersicht](3.5.1 Übersicht)
 ### [3.5.2 Struktur](3.5.2 Struktur)
-### [3.5.3 Generierung](3.5.3 Generierung#generierung-einer-lightshow)
+### [3.5.3 Generierung](3.5 Lightshow#generierung-einer-lightshow)
 ### [3.5.4 Persistierung](3.5.4 Persistierung)
 ### [3.5.5 Abspielen](3.5.5 Abspielen)
 ### [3.5.6 Übertragung DMX](3.5.6 Übertragung DMX)
