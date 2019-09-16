@@ -52,4 +52,8 @@ Zusammenfassung aller durchgeführter Maßnahmen: IST
 ### [3.6.3 Fixture-Management](3.6 Graphical User Interface#363-fixture-management)
 ### [3.6.4 Playlist-View](3.6 Graphical User Interface#364-playlist-view)
 ### [3.6.5 Player-View](3.6 Graphical User Interface#365-player-view)
+### [3.6.6 Hinzufügen eines Songs](3.6 Graphical User Interface#366-hinzufügen-song)
+### [3.6.7 Löschen eines Songs](3.6. Graphical User Interface#367-löschen-song)
+### [3.6.8 Playlist Reihenfolge verändern](3.6. Graphical User Interface#368-playlist-reihenfolge-ändern)
+### [3.6.9 Song Auswahl durch Doppelt klicken](3.6. Graphical User Interface#369-song-auswahl-doppelt-klicken)
 # [4. Quellen & Ressourcen](4. Quellen & Ressourcen)
