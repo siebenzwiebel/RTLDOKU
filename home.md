@@ -28,6 +28,7 @@ Zusammenfassung aller durchgeführter Maßnahmen: IST
 ### [3.2.3 IDE](3.2.3 IDE)
 ### [3.2.4 Dependency Management](3.2.4 Dependency Management)
 ### [3.2.5 Wie entwickeln wir für den Raspberry Pi?](3.2.5 Wie entwickeln wir für den Raspberry Pi)
+### [3.2.6 Stack Traces mit C++](3.2.6 Stack Traces mit C++)
 ## [3.3 Software–Architektur](3.3 Software-Architektur)
 ### [3.3.1 Motivation](3.3.1 Motivation)
 ### [3.3.2 Separation GUI/Core](3.3.2 Seperation GUI/Core)
